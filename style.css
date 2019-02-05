@@ -1,0 +1,48 @@
+    #app {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #inp {
+        margin-bottom: 25px;
+    }
+    
+    img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #report {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    #div {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    #div table {
+        display: block;
+        text-align: center;
+        border-collapse: collapse;
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    #div table tr td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 15px;
+        width: 30%;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: #777777;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #e2e1e2;
+    }
